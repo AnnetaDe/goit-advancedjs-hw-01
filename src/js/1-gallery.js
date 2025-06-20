@@ -7,44 +7,44 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
   {
     preview:
-      "/gallery/1.png",
+      "gallery/1.png",
     original:
-      "/gallery/1@2x.png",
+      "gallery/1@2x.png",
     description: "description 1"
   },
   {
     preview:
-      "/gallery/1-1.png",
+      "gallery/1-1.png",
     original:
-      "/gallery/1@2x-1.png",
+      "gallery/1@2x-1.png",
     description: "description 2"
   },
   {
     preview:
-      "/gallery/2-1.png",
+      "gallery/2-1.png",
     original:
       "/gallery/2@2x-1.png",
     description: "description 3"
   },
   {
     preview:
-      "/gallery/2.png",
+      "gallery/2.png",
     original:
-      "/gallery/2@2x.png",
+      "gallery/2@2x.png",
     description: "description 4"
   },
   {
     preview:
-      "/gallery/3-1.png",
+      "gallery/3-1.png",
     original:
-      "/gallery/3@2x-1.png",
+      "gallery/3@2x-1.png",
     description: "description 5"
   },
   {
     preview:
-      "/gallery/3.png",
+      "gallery/3.png",
     original:
-      "/gallery/3@2x.png",
+      "gallery/3@2x.png",
     description: "description 6"
   },
  
