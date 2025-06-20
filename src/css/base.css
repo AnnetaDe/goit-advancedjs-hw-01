@@ -30,3 +30,12 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+a {
+  color: #4e75ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #6c8cff;
+}
