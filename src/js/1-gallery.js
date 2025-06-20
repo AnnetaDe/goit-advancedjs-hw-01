@@ -67,7 +67,7 @@ const createGalleryItem = images.map(item => {
   </li>`;
 });
 
-gallery.insertAdjacentHTML("afterbegin", createGalleryItem.join(""));
+gallery.insertAdjacentHTML("beforeend", createGalleryItem.join(""));
 
 
 const lightbox = new SimpleLightbox(".gallery a", {
