@@ -23,7 +23,7 @@ const images = [
     preview:
       "gallery/2-1.png",
     original:
-      "/gallery/2@2x-1.png",
+      "gallery/2@2x-1.png",
     description: "description 3"
   },
   {
