@@ -1,0 +1,25 @@
+/* .container {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+} */
+.gallery {
+  padding: 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+.gallery-item {
+  flex: 1 1 calc(33.333% - 24px);
+}
+
+.gallery img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
