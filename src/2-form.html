@@ -15,8 +15,21 @@
         <h1 class="main-title">
           <span class="main-title-gradient">Welcome</span> to page 3
         </h1>
-        <load src="./partials/form.html" />
-        <load src="./partials/back-link.html" />
+<div class="form-container">
+
+  <form class="feedback-form" autocomplete="off">
+    <label>
+      Email
+      <input type="email" name="email" autofocus />
+    </label>
+    <label>
+      Message
+      <textarea name="message" rows="8"></textarea>
+    </label>
+    <button className="form-button" type="submit">Submit</button>
+  </form>
+</div>
+          <load src="./partials/back-link.html" />
 
       </div>
 
